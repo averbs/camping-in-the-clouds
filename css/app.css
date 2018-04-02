@@ -65,6 +65,9 @@ h1, h2, h3 {
 .green-bg h1, .green-bg h2, .green-bg h3, .green-bg p, .green-bg a {
   color: #FFFFFF !important;
 }
+button:hover, .button:hover {
+  background: #4F7A63;
+}
 .black-bg {
   background: #000000;
   overflow: auto;
