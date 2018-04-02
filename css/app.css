@@ -2,33 +2,36 @@
   background: url('../images/night-shot.jpg') no-repeat;
   background-size: cover;
   width: 100%;
-  background-position: center top;
-  min-height: 700px;
+  background-position: center center;
+  min-height: 800px;
   padding: 100px 50px;
 }
 h1, h2, h3 {
-  font-family: "Kanit";
-  font-weight: bolder;
-  text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
 }
 .hero h1 {
-  font-family: "Kanit";
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 60px;
   line-height: 66px;
-  font-weight: bolder;
-  text-transform: uppercase;
+  font-weight: bold;
   color: white;
 }
 .hero h2 {
   color: white;
-  font-family: "Source Sans Pro";
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 23px;
   line-height: 33px;
   font-weight: bold;
 }
+@media all and (max-width: 40em) {
+  h2 {
+    font-size: 2.2rem;
+  }
+}
 .yellow {color: #FAAA2E;}
 .orange {color: #D05233;}
-.green {color: #106637;}
+.green {color: #4F7A63;}
 .button {
   text-transform: uppercase;
   color: white;
@@ -51,7 +54,7 @@ h1, h2, h3 {
   padding: 90px !important;
 }
 .green-bg {
-  background: #5DC78F;
+  background: #4F7A63;
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -59,9 +62,11 @@ h1, h2, h3 {
   overflow: auto;
   padding: 90px !important;
 }
+.green-bg h1, .green-bg h2, .green-bg h3, .green-bg p, .green-bg a {
+  color: #FFFFFF !important;
+}
 .black-bg {
   background: #000000;
-
   overflow: auto;
   padding: 50px !important;
 }
@@ -75,7 +80,7 @@ h1, h2, h3 {
   height: 58px;
 }
 .black-bg p {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: normal;
   color: white;
 }
@@ -105,11 +110,25 @@ h1, h2, h3 {
 }
 p {
   color: #000000;
-  font-family: "Source Sans Pro";
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 23px;
-  font-weight: bold;
   line-height: 33px;
 }
 .white {
   color: white;
+}
+table {
+  width: 100%;
+}
+table td {
+  padding: 10px 0px;
+  border-bottom: 1px solid #e8e8e8;
+}
+table th, h4 {
+  font-size: 12px;
+  color: #4F7A63;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding-bottom: 25px;
 }
