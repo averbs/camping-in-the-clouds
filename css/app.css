@@ -1,9 +1,5 @@
-body {
-  background: black;
-  color: white;
-}
 .hero {
-  background: url('../images/background.jpg') no-repeat;
+  background: url('../images/night-shot.jpg') no-repeat;
   background-size: cover;
   width: 100%;
   background-position: center center;
@@ -18,13 +14,13 @@ h1, h2, h3 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 60px;
   line-height: 66px;
-  font-weight: normal;
+  font-weight: bold;
   color: white;
 }
-.hero h2, h2 {
+.hero h2 {
   color: white;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 20px;
+  font-size: 23px;
   line-height: 33px;
   font-weight: bold;
 }
@@ -32,11 +28,7 @@ h1, h2, h3 {
   h2 {
     font-size: 2.2rem;
   }
-  h1 {
-    font-size: 2.5rem;
-  }
 }
-.hero p {color: white;}
 .yellow {color: #FAAA2E;}
 .orange {color: #D05233;}
 .green {color: #4F7A63;}
@@ -142,39 +134,4 @@ table th, h4 {
   letter-spacing: 1px;
   font-weight: bold;
   padding-bottom: 25px;
-}
-.coaches {
-  padding-bottom: 4em;
-}
-.coach img {
-  border-radius: 150px;
-  margin-bottom: 20px;
-}
-.coach p {
-  font-family: Work Sans;
-  font-style: normal;
-  font-weight: normal;
-  line-height: normal;
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: -0.05em;
-  color: white;
-  margin: 0px;
-}
-p.title {
-  color: #626262;
-  font-style: italic;
-}
-.footer {
-  color: #626262;
-  border-top: 4px solid #626262;
-  padding: 2em 0em;
-  margin-top: 4em;
-}
-input {
-  background: #626262!important;
-  border: 0px!important;
-}
-form {
-  width: 100%;
 }
